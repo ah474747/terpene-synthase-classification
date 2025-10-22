@@ -1,0 +1,8 @@
+Method,F1-Score,Accuracy,AUC-PR,AUC-ROC
+Sequence_Similarity,0.487,0.564,,
+Motif_Based,0.698,0.874,,
+Length_Based,0.359,0.223,,
+AA_Composition,0.373,0.229,,
+HMM_Based,0.0,0.771,,
+Profile_Based,0.369,0.226,,
+ESM-2 + XGBoost,0.907,0.92,0.947,0.983

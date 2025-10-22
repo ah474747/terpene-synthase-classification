@@ -1,0 +1,10 @@
+{
+  "total_sequences": 1788,
+  "ent_kaurene_count": 411,
+  "non_ent_kaurene_count": 1377,
+  "class_imbalance_ratio": 3.3503649635036497,
+  "mean_length": 622.7321029082774,
+  "std_length": 194.42147933526465,
+  "cv_length": 31.220725321093827,
+  "unique_sequences": 1771
+}

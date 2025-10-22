@@ -58,7 +58,7 @@ We compiled a clean dataset of 1,262 deduplicated terpene synthase sequences fro
 
 ### Machine Learning Benchmark Results
 
-We benchmarked seven machine learning algorithms using ESM-2 embeddings as features across all three target products. Performance varied significantly based on class balance and product chemistry:
+We benchmarked seven machine learning algorithms using ESM-2 embeddings as features across all three target products. Performance varied significantly based on class balance and product chemistry, as illustrated in Figure 1:
 
 **Germacrene Classification (93 sequences, 7.4% positive class):**
 - Best performance: SVM-RBF (F1-score = 0.591 ± 0.083, 95% CI [0.508, 0.674]; AUC-PR = 0.645 ± 0.075, 95% CI [0.570, 0.720])
@@ -93,7 +93,7 @@ We benchmarked seven machine learning algorithms using ESM-2 embeddings as featu
 
 ### Traditional Methods Comparison
 
-We compared our ESM-2 + ML approach against four traditional bioinformatics methods for germacrene classification. Traditional methods consistently underperformed compared to ESM-2 + ML approaches:
+We compared our ESM-2 + ML approach against four traditional bioinformatics methods for germacrene classification. Traditional methods consistently underperformed compared to ESM-2 + ML approaches, as shown in Figure 2:
 
 **Table 2. Traditional Methods vs. ESM-2 + ML Performance (Germacrene Classification)**
 
@@ -111,7 +111,7 @@ We compared our ESM-2 + ML approach against four traditional bioinformatics meth
 
 ### Hold-out Validation
 
-We performed hold-out validation on the germacrene dataset (80/20 split) to assess generalization to unseen data. The XGBoost model achieved F1-score = 0.545, AUC-PR = 0.580, and AUC-ROC = 0.931 on the hold-out test set, confirming robust performance on completely unseen sequences.
+We performed hold-out validation on the germacrene dataset (80/20 split) to assess generalization to unseen data. The XGBoost model achieved F1-score = 0.545, AUC-PR = 0.580, and AUC-ROC = 0.931 on the hold-out test set, confirming robust performance on completely unseen sequences, as shown in Figure 4.
 
 **Figure 3. Class Balance Impact on Performance.** (A) Scatter plot showing the relationship between class balance and best F1-score performance. Germacrene (7.4% class balance) and pinene (6.5%) achieve superior performance compared to myrcene (4.2%). (B) Pie chart showing dataset composition with 1,262 total sequences distributed across target products and other terpene synthases.
 
@@ -123,7 +123,7 @@ We performed hold-out validation on the germacrene dataset (80/20 split) to asse
 
 ### Statistical Analysis
 
-Statistical analysis revealed significant performance differences between ESM-2 + ML approaches and traditional methods across all target products (p < 0.001). Class balance was found to be a critical factor, with better-balanced datasets (germacrene, pinene) achieving superior performance compared to imbalanced datasets (myrcene).
+Statistical analysis revealed significant performance differences between ESM-2 + ML approaches and traditional methods across all target products (p < 0.001). Class balance was found to be a critical factor, with better-balanced datasets (germacrene, pinene) achieving superior performance compared to imbalanced datasets (myrcene), as demonstrated in Figure 3.
 
 ### Practical Application: Sequence Prioritization for Experimental Validation
 
@@ -141,7 +141,7 @@ Our comprehensive benchmark demonstrates the superior performance of ESM-2 prote
 
 **1. ESM-2 Embeddings Capture Functional Information:** The consistent outperformance of ESM-2 + ML approaches across all target products and algorithms demonstrates that protein language model embeddings effectively capture the structural and functional information necessary for enzyme classification.
 
-**2. Class Balance Impacts Performance:** The strong correlation between class balance and performance highlights the importance of dataset composition for machine learning applications in enzyme classification. Germacrene (7.4%) and pinene (6.5%) achieved superior performance compared to myrcene (4.2%).
+**2. Class Balance Impacts Performance:** The strong correlation between class balance and performance highlights the importance of dataset composition for machine learning applications in enzyme classification. As shown in Figure 1, germacrene (7.4%) and pinene (6.5%) achieved superior performance compared to myrcene (4.2%).
 
 **3. Algorithm Selection Matters:** Different algorithms excel for different target products, with SVM-RBF performing best for germacrene, KNN for pinene, and XGBoost for myrcene. This suggests that algorithm selection should be product-specific.
 

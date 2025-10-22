@@ -330,7 +330,7 @@ The framework established here can be readily extended to other enzyme families 
     
     # Data Availability
     story.append(Paragraph("Data Availability", heading_style))
-    data_text = """All code, data, and results are available at: https://github.com/ah474747/ent-kaurene-classification"""
+    data_text = """All code, data, and results are available at: https://github.com/ah474747/terpene-synthase-classification"""
     story.append(Paragraph(clean_text(data_text), body_style))
     story.append(Spacer(1, 20))
     

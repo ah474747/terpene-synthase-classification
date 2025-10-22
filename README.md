@@ -143,7 +143,7 @@ If you use this work, please cite:
   author={Horwitz, Andrew},
   journal={[Journal]},
   year={2024},
-  url={https://github.com/ah474747/ent-kaurene-classification}
+  url={https://github.com/ah474747/terpene-synthase-classification}
 }
 ```
 

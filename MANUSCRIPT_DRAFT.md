@@ -171,7 +171,7 @@ The framework established here can be readily extended to other enzyme families 
 
 ## Data Availability
 
-All code, data, and results are available at: https://github.com/ah474747/ent-kaurene-classification
+All code, data, and results are available at: https://github.com/ah474747/terpene-synthase-classification
 
 ## Acknowledgments
 

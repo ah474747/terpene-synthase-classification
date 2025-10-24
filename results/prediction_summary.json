@@ -1,0 +1,15 @@
+{
+  "total_sequences": 5000,
+  "predicted_germacrene": 171,
+  "predicted_not_germacrene": 4829,
+  "high_confidence_count": 38,
+  "mean_confidence": 0.071602001786232,
+  "median_confidence": 0.014503978192806244,
+  "confidence_thresholds": {
+    ">0.90": 6,
+    ">0.80": 38,
+    ">0.70": 61,
+    ">0.60": 113,
+    ">0.50": 171
+  }
+}
